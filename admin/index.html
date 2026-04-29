@@ -1,20 +1,12 @@
-backend:
-  name: github
-  repo: simplelife414-pixel/Fortis
-  branch: main
-
-media_folder: "images"
-public_folder: "/images"
-
-collections:
-  - name: "posts"
-    label: "SEO 文章"
-    folder: "posts"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "標題", name: "title", widget: "string" }
-      - { label: "發布日期", name: "date", widget: "datetime" }
-      - { label: "摘要", name: "description", widget: "text" }
-      - { label: "封面圖片", name: "thumbnail", widget: "image", required: false }
-      - { label: "內容", name: "body", widget: "markdown" }
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fortis 後台</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+</body>
+</html>
