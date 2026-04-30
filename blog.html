@@ -11,6 +11,7 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--cream:#F7F3EC;--gold:#C9A96E;--gold-deep:#A07840;--brown:#5C3A1E;--brown-dark:#3E2509;--text-main:#3E2509;--text-mid:#7A5530;--text-light:#A08060;--white:#FFFDF9;}
 html{scroll-behavior:smooth}
+html,body{overflow-x:hidden}
 body{font-family:"Noto Sans TC",sans-serif;background:var(--cream);color:var(--text-main);line-height:1.8}
 nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(247,243,236,0.95);backdrop-filter:blur(8px);border-bottom:1px solid rgba(201,169,110,0.25);padding:0 5vw;height:64px;display:flex;align-items:center;justify-content:space-between}
 .nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
@@ -32,8 +33,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(247,243,236,
 
 .post-card{background:var(--white);border:1px solid rgba(201,169,110,0.18);border-radius:16px;overflow:hidden;transition:all 0.3s;text-decoration:none;display:block}
 .post-card:hover{transform:translateY(-6px);box-shadow:0 20px 50px rgba(90,58,30,0.1)}
-.post-card-top{background:var(--cream);min-height:240px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
-.post-card-top img{width:100%;height:240px;object-fit:cover;display:block}
+.post-card-top{background:var(--cream);min-height:240px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;width:100%}
+.post-card-top img{width:100%;height:240px;object-fit:cover;display:block;max-width:100%}
 .post-card-body{padding:24px 28px 28px}
 .post-cat{font-family:"Cinzel",serif;font-size:10px;letter-spacing:0.25em;color:var(--gold-deep);text-transform:uppercase;margin-bottom:10px}
 .post-title{font-family:"Noto Serif TC",serif;font-size:17px;font-weight:500;color:var(--brown-dark);line-height:1.5;margin-bottom:12px}
