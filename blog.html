@@ -28,7 +28,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(247,243,236,
 .blog-hero p{font-size:15px;color:var(--text-mid);max-width:480px;margin:0 auto}
 
 .blog-main{max-width:1100px;margin:0 auto;padding:80px 5vw}
-.blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.blog-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
 
 .post-card{background:var(--white);border:1px solid rgba(201,169,110,0.18);border-radius:16px;overflow:hidden;transition:transform 0.3s,box-shadow 0.3s;text-decoration:none;display:block}
 .post-card:hover{transform:translateY(-6px);box-shadow:0 20px 50px rgba(90,58,30,0.1)}
