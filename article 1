@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HBX7MRXJ17"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-HBX7MRXJ17');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEO 與 Google Ads 怎麼搭配？讓預算效益最大化｜豐蒂斯 Fortis</title>
+<meta name="description" content="SEO 與 Google Ads 該怎麼搭配才有效？本文從中小企業主的角度出發，說明兩者的差異、最佳搭配時機，以及如何用有限預算讓每一分行銷費用發揮最大效益。">
+<meta property="og:title" content="SEO 與 Google Ads 怎麼搭配？讓預算效益最大化">
+<meta property="og:description" content="SEO 長期資產配合廣告短期催化，讓每一分行銷預算都發揮最大價值。">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;700&family=Cinzel:wght@400;600&family=Noto+Sans+TC:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --cream:#F7F3EC;--gold:#C9A96E;--gold-deep:#A07840;
+  --brown:#5C3A1E;--brown-dark:#3E2509;
+  --text-main:#3E2509;--text-mid:#7A5530;--text-light:#A08060;--white:#FFFDF9;
+}
+html{scroll-behavior:smooth}
+html,body{overflow-x:hidden;width:100%;max-width:100%}
+body{font-family:"Noto Sans TC",sans-serif;background:var(--cream);color:var(--text-main);line-height:1.8}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(247,243,236,0.95);backdrop-filter:blur(8px);border-bottom:1px solid rgba(201,169,110,0.25);padding:0 5vw;height:64px;display:flex;align-items:center;justify-content:space-between}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nav-logo img{height:38px;width:auto;display:block;flex-shrink:0}
+.nav-logo-text{font-family:"Cinzel",serif;font-size:18px;font-weight:600;color:var(--brown);letter-spacing:0.1em}
+.nav-links{display:flex;gap:2rem;list-style:none}
+.nav-links a{font-size:14px;color:var(--text-mid);text-decoration:none;transition:color 0.3s}
+.nav-links a:hover{color:var(--brown)}
+.nav-cta{background:var(--brown);color:var(--cream)!important;padding:8px 20px;border-radius:30px;font-size:13px!important}
+
+/* HERO */
+.article-hero{padding:100px 5vw 0;background:var(--white);border-bottom:1px solid rgba(201,169,110,0.15)}
+.article-hero-inner{max-width:800px;margin:0 auto}
+.article-cat{font-family:"Cinzel",serif;font-size:11px;letter-spacing:0.3em;color:var(--gold-deep);text-transform:uppercase;margin-bottom:16px;display:flex;align-items:center;gap:10px}
+.article-cat::before{content:"";width:20px;height:1px;background:var(--gold);display:block}
+.article-title{font-family:"Noto Serif TC",serif;font-size:clamp(24px,4vw,40px);font-weight:500;color:var(--brown-dark);line-height:1.4;margin-bottom:20px}
+.article-meta{display:flex;flex-wrap:wrap;align-items:center;gap:16px;font-size:13px;color:var(--text-light);padding-bottom:28px;border-bottom:1px solid rgba(201,169,110,0.2)}
+.cover-img{width:100%;max-width:800px;display:block;margin:32px auto 0;border-radius:16px 16px 0 0;object-fit:cover;max-height:420px}
+
+/* TOC */
+.article-wrap{max-width:800px;margin:0 auto;padding:60px 5vw 80px}
+.toc{background:var(--white);border:1px solid rgba(201,169,110,0.2);border-radius:12px;padding:28px;margin-bottom:48px}
+.toc-title{font-family:"Cinzel",serif;font-size:11px;letter-spacing:0.25em;color:var(--gold-deep);text-transform:uppercase;margin-bottom:16px}
+.toc ol{padding-left:20px}
+.toc li{font-size:14px;color:var(--text-mid);line-height:2.2}
+.toc a{color:var(--text-mid);text-decoration:none;transition:color 0.3s}
+.toc a:hover{color:var(--brown)}
+
+/* BODY */
+.article-body h2{font-family:"Noto Serif TC",serif;font-size:22px;font-weight:500;color:var(--brown-dark);margin:56px 0 18px;padding-left:16px;border-left:3px solid var(--gold)}
+.article-body h3{font-family:"Noto Serif TC",serif;font-size:18px;font-weight:500;color:var(--brown);margin:36px 0 12px}
+.article-body p{font-size:15px;color:var(--text-mid);line-height:2.2;margin-bottom:20px}
+.article-body ul,.article-body ol{padding-left:24px;margin-bottom:20px}
+.article-body li{font-size:15px;color:var(--text-mid);line-height:2.1;margin-bottom:6px}
+.article-body strong{color:var(--brown);font-weight:500}
+.article-body img{max-width:100%;height:auto;border-radius:12px;margin:28px 0}
+
+/* HIGHLIGHT BOX */
+.highlight-box{background:var(--white);border:1px solid rgba(201,169,110,0.2);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:20px 24px;margin:28px 0}
+.highlight-box p{margin:0;font-size:14px;color:var(--text-mid);line-height:2}
+
+/* TIP BOX */
+.tip-box{background:rgba(201,169,110,0.08);border:1px solid rgba(201,169,110,0.25);border-radius:10px;padding:20px 24px;margin:28px 0}
+.tip-box-title{font-size:13px;font-weight:500;color:var(--gold-deep);letter-spacing:0.05em;margin-bottom:10px}
+.tip-box p{margin:0;font-size:14px;color:var(--text-mid);line-height:2}
+
+/* COMPARE TABLE */
+.compare-table{width:100%;border-collapse:collapse;margin:28px 0;font-size:14px}
+.compare-table th{background:var(--brown);color:var(--cream);padding:12px 16px;text-align:left;font-weight:500}
+.compare-table td{padding:12px 16px;border-bottom:1px solid rgba(201,169,110,0.15);color:var(--text-mid);background:var(--white)}
+.compare-table tr:last-child td{border-bottom:none}
+.compare-table tr:nth-child(even) td{background:var(--cream)}
+
+/* CHECKLIST */
+.checklist{background:var(--cream);border-radius:12px;padding:24px 28px;margin:28px 0}
+.checklist-title{font-family:"Noto Serif TC",serif;font-size:15px;font-weight:500;color:var(--brown-dark);margin-bottom:14px}
+.checklist ul{list-style:none;padding:0}
+.checklist li{padding-left:24px;position:relative;font-size:14px;color:var(--text-mid);line-height:2;margin-bottom:4px}
+.checklist li::before{content:"✦";position:absolute;left:0;color:var(--gold);font-size:11px;top:4px}
+
+/* FAQ */
+.faq-item{background:var(--white);border:1px solid rgba(201,169,110,0.18);border-radius:10px;padding:24px;margin-bottom:12px}
+.faq-q{font-family:"Noto Serif TC",serif;font-size:16px;font-weight:500;color:var(--brown-dark);margin-bottom:12px;display:flex;align-items:flex-start;gap:10px}
+.faq-q::before{content:"Q";background:var(--gold);color:var(--white);width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-family:"Cinzel",serif;flex-shrink:0;margin-top:2px}
+.faq-a{font-size:14px;color:var(--text-mid);line-height:2;padding-left:34px}
+
+/* CTA */
+.cta-box{background:var(--brown);border-radius:16px;padding:48px;text-align:center;margin:60px 0}
+.cta-box h3{font-family:"Noto Serif TC",serif;font-size:22px;font-weight:500;color:var(--cream);margin-bottom:12px}
+.cta-box p{font-size:14px;color:rgba(247,243,236,0.7);margin-bottom:28px;line-height:2}
+.cta-btn{background:var(--gold);color:var(--brown-dark);padding:14px 36px;border-radius:40px;text-decoration:none;font-size:14px;font-weight:500;display:inline-block}
+
+/* FOOTER */
+footer{background:var(--brown-dark);padding:40px 5vw;text-align:center}
+footer p{font-size:13px;color:rgba(247,243,236,0.4)}
+footer span{color:var(--gold)}
+
+/* MOBILE */
+@media(max-width:768px){
+  .nav-links{display:none}
+  .article-hero{padding:80px 4vw 0}
+  .article-wrap{padding:40px 4vw 60px}
+  .cta-box{padding:32px 24px}
+  .compare-table{font-size:13px}
+  .compare-table th,.compare-table td{padding:10px 12px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <span class="nav-logo-text">Fortis</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html">首頁</a></li>
+    <li><a href="blog.html">SEO 知識庫</a></li>
+    <li><a href="index.html#contact" class="nav-cta">免費諮詢</a></li>
+  </ul>
+</nav>
+
+<div class="article-hero">
+  <div class="article-hero-inner">
+    <p class="article-cat">數位廣告</p>
+    <h1 class="article-title">SEO 與 Google Ads 怎麼搭配？<br>讓預算效益最大化</h1>
+    <div class="article-meta">
+      <span>2026 年 4 月 30 日</span>
+      <span>・</span>
+      <span>豐蒂斯 Fortis</span>
+      <span>・</span>
+      <span>閱讀約 12 分鐘</span>
+    </div>
+  </div>
+  <img class="cover-img" src="cover-seo-ads.png" alt="SEO 與 Google Ads 搭配策略封面">
+</div>
+
+<div class="article-wrap">
+
+  <div class="toc">
+    <p class="toc-title">本文目錄</p>
+    <ol>
+      <li><a href="#difference">SEO 與 Google Ads 的核心差異</a></li>
+      <li><a href="#why-combine">為什麼中小企業需要同時使用兩者？</a></li>
+      <li><a href="#when-ads">什麼時候應該先跑 Google Ads？</a></li>
+      <li><a href="#when-seo">什麼時候應該優先投資 SEO？</a></li>
+      <li><a href="#strategy">最佳搭配策略：三個階段</a></li>
+      <li><a href="#budget">預算怎麼分配才合理？</a></li>
+      <li><a href="#mistakes">中小企業常犯的三大錯誤</a></li>
+      <li><a href="#faq">常見問題 FAQ</a></li>
+    </ol>
+  </div>
+
+  <div class="article-body">
+
+    <p>「我到底該花錢下 Google 廣告，還是做 SEO？」這是豐蒂斯接觸中小企業主最常聽到的問題之一。</p>
+    <p>很多老闆的心態是：廣告太貴、停了就沒流量；SEO 太慢、三個月沒成效。結果兩個都做不好，預算白花，流量也不來。</p>
+    <p>但這個問題本身就問錯了。<strong>SEO 與 Google Ads 不是二選一，而是互補的組合拳</strong>。問題在於——你現在在哪個階段，以及怎麼搭配才能讓每一分錢發揮最大效益。</p>
+    <p>這篇文章，我們會用中小企業主最能理解的語言，完整拆解兩者的差異、最佳搭配時機，以及一套可以直接套用的預算分配策略。</p>
+
+    <h2 id="difference">SEO 與 Google Ads 的核心差異</h2>
+    <p>在討論怎麼搭配之前，我們先確認你真的理解兩者的本質差異——不是表面上的「一個免費、一個要錢」，而是更深層的運作邏輯。</p>
+
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>比較項目</th>
+          <th>SEO（搜尋引擎優化）</th>
+          <th>Google Ads（搜尋廣告）</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>出現位置</td>
+          <td>自然搜尋結果（免費版位）</td>
+          <td>廣告版位（標示「贊助」）</td>
+        </tr>
+        <tr>
+          <td>費用模式</td>
+          <td>投資時間與內容成本</td>
+          <td>每次點擊付費（CPC）</td>
+        </tr>
+        <tr>
+          <td>見效速度</td>
+          <td>3～6 個月開始有效果</td>
+          <td>當天上線即可獲得流量</td>
+        </tr>
+        <tr>
+          <td>流量持續性</td>
+          <td>停止優化後仍可持續</td>
+          <td>停止投放即無流量</td>
+        </tr>
+        <tr>
+          <td>點擊信任度</td>
+          <td>自然結果信任度較高</td>
+          <td>部分用戶會略過廣告</td>
+        </tr>
+        <tr>
+          <td>關鍵字競爭</td>
+          <td>靠內容品質與權威度</td>
+          <td>靠出價與品質分數</td>
+        </tr>
+        <tr>
+          <td>長期 ROI</td>
+          <td>隨時間遞增</td>
+          <td>固定或隨競爭遞減</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="highlight-box">
+      <p>一句話總結：<strong>Google Ads 是租房子，SEO 是買房子。</strong>租房可以馬上住進去，但每個月要付租金；買房前期成本高，但長期下來是自己的資產。</p>
+    </div>
+
+    <h2 id="why-combine">為什麼中小企業需要同時使用兩者？</h2>
+    <p>很多人以為「預算有限，只能選一個」——但這個思維會讓你陷入一個兩難困境：</p>
+    <ul>
+      <li>只做 SEO：前三到六個月幾乎沒有流量，生意撐不住</li>
+      <li>只跑廣告：每個月燒錢，停了就歸零，沒有長期資產</li>
+    </ul>
+    <p>正確的做法是：<strong>用廣告補足 SEO 起步慢的缺口，用 SEO 降低廣告長期的依賴度。</strong></p>
+    <p>以一個台南的室內設計公司為例：剛開始沒有任何網路流量，如果只投入 SEO，可能要等半年才有詢問。但如果先跑廣告，同時開始做 SEO 內容，六個月後 SEO 開始發酵，廣告預算就可以逐漸降低，整體行銷成本越來越低，流量卻越來越穩。</p>
+
+    <div class="tip-box">
+      <p class="tip-box-title">✦ 豐蒂斯觀察</p>
+      <p>根據我們服務的客戶數據，同時使用 SEO＋廣告的企業，平均每詢問成本（CPL）比單獨跑廣告低 35～50%，因為 SEO 帶來的自然流量持續攤薄整體廣告支出。</p>
+    </div>
+
+    <h2 id="when-ads">什麼時候應該先跑 Google Ads？</h2>
+    <p>以下幾種情況，建議優先啟動 Google Ads：</p>
+
+    <h3>1. 網站剛上線、完全沒有流量</h3>
+    <p>新網站在 Google 眼中是陌生人，SEO 需要時間建立信任與權威。這段空窗期，廣告是最快取得曝光的方式。你需要流量測試你的頁面、了解哪些關鍵字真正有詢問，而廣告可以立即給你這些數據。</p>
+
+    <h3>2. 有季節性或活動性需求</h3>
+    <p>餐廳的母親節方案、補習班的暑期招生、婚紗公司的旺季衝刺——這些都是有時間限制的需求，SEO 來不及，廣告是唯一選項。</p>
+
+    <h3>3. 競爭對手已佔據自然搜尋排名</h3>
+    <p>如果你的主要關鍵字前三名都被競爭對手牢牢佔據，短期內 SEO 很難突破，廣告可以讓你在他們旁邊出現，先搶到一部分詢問。</p>
+
+    <h3>4. 需要快速驗證市場</h3>
+    <p>你有新服務、新產品，不確定有沒有市場。跑廣告是最快的市場調查方式——兩週內你就知道這個東西有沒有人要。</p>
+
+    <div class="tip-box">
+      <p class="tip-box-title">✦ 小提醒</p>
+      <p>跑廣告時，務必同步收集關鍵字數據（哪些詞帶來詢問、哪些詞只帶來點擊不轉換），這些數據之後可以直接用來指導 SEO 的關鍵字策略，讓兩者形成正向循環。</p>
+    </div>
+
+    <h2 id="when-seo">什麼時候應該優先投資 SEO？</h2>
+    <p>以下情況，SEO 應該是你的主力投資：</p>
+
+    <h3>1. 你的產品或服務有明確的搜尋需求</h3>
+    <p>「台南裝潢推薦」、「新竹會計師事務所」、「台北牙齒矯正費用」——這些都是有明確搜尋意圖的關鍵字。當潛在客戶有需求時，他們會主動搜尋，你要出現在那裡。</p>
+
+    <h3>2. 廣告成本越來越高</h3>
+    <p>某些產業的 Google 廣告每次點擊成本高達 50～200 元台幣，如果轉換率不高，廣告根本不划算。這時候 SEO 帶來的自然流量，成本遠遠更低。</p>
+
+    <h3>3. 你有長期經營品牌的打算</h3>
+    <p>SEO 建立的是品牌在 Google 的長期地位。當你的文章、頁面持續被搜尋到，品牌信任度也隨之累積。這是廣告無法替代的。</p>
+
+    <h3>4. 你的客戶需要大量資訊才能決策</h3>
+    <p>醫美、法律、財務、裝修……這些產業的客戶在詢問前會做大量功課。如果你的網站有豐富的內容解答他們的問題，你就在他們心中建立了信任，轉換率自然更高。</p>
+
+    <h2 id="strategy">最佳搭配策略：三個階段</h2>
+    <p>根據我們服務多個中小企業的實戰經驗，最有效的搭配方式分為三個階段：</p>
+
+    <h3>第一階段：衝刺期（0～3 個月）</h3>
+    <p>這個階段的目標是<strong>快速取得流量與詢問，同時建立 SEO 基礎</strong>。</p>
+    <ul>
+      <li>Google Ads：佔行銷預算 70%，鎖定核心轉換關鍵字，快速測試廣告文案與頁面</li>
+      <li>SEO：佔 30%，完成網站技術優化（速度、結構、Meta 設定），開始產出第一批文章</li>
+      <li>重點：廣告數據收集，了解哪些關鍵字真正帶來詢問</li>
+    </ul>
+
+    <h3>第二階段：平衡期（3～9 個月）</h3>
+    <p>這個階段 SEO 開始發酵，部分關鍵字進入搜尋結果前兩頁，<strong>廣告開始扮演補充角色</strong>。</p>
+    <ul>
+      <li>Google Ads：佔 50%，縮減低效關鍵字，集中預算在競爭強、SEO 暫時追不上的詞</li>
+      <li>SEO：佔 50%，加速內容產出，針對廣告驗證過的高價值關鍵字深度布局</li>
+      <li>重點：監測 SEO 排名進展，逐步取代廣告流量</li>
+    </ul>
+
+    <h3>第三階段：成熟期（9 個月以後）</h3>
+    <p>SEO 已建立穩定排名，自然流量佔主力，<strong>廣告轉為精準投放</strong>。</p>
+    <ul>
+      <li>Google Ads：佔 20～30%，專注競爭最激烈的關鍵字、季節性活動、新服務推廣</li>
+      <li>SEO：佔 70～80%，持續維護排名、更新舊文章、擴展長尾關鍵字版圖</li>
+      <li>重點：整體行銷成本大幅下降，詢問數量穩定增長</li>
+    </ul>
+
+    <div class="highlight-box">
+      <p>這三個階段並不是固定時間表，每個產業、每個市場的競爭程度都不同。重點是<strong>根據數據調整比例</strong>，而不是死板地照時間切換。</p>
+    </div>
+
+    <h2 id="budget">預算怎麼分配才合理？</h2>
+    <p>沒有一個適用所有人的數字，但我們可以給你一個思考框架。</p>
+
+    <h3>先算出你的「可接受詢問成本」</h3>
+    <p>假設你賣的服務，每個成交案子毛利是 1 萬元。如果成交率是 20%，代表你需要 5 個詢問才能成交一筆。那麼你能接受的每個詢問成本（CPL）就是 10,000 ÷ 5 = 2,000 元以內。</p>
+    <p>有了這個數字，你就能判斷廣告的 CPL 是否合理，以及 SEO 帶來的自然詢問「省了你多少錢」。</p>
+
+    <h3>月預算參考範圍</h3>
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>月行銷預算</th>
+          <th>建議分配</th>
+          <th>備註</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1～3 萬</td>
+          <td>廣告 60% / SEO 40%</td>
+          <td>SEO 以自行產內容為主</td>
+        </tr>
+        <tr>
+          <td>3～8 萬</td>
+          <td>廣告 50% / SEO 50%</td>
+          <td>可委外 SEO 內容製作</td>
+        </tr>
+        <tr>
+          <td>8 萬以上</td>
+          <td>廣告 40% / SEO 60%</td>
+          <td>SEO 進入系統化布局</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="tip-box">
+      <p class="tip-box-title">✦ 重要提醒</p>
+      <p>SEO 的「費用」包含：內容產出（寫文章）、技術優化、外部連結建立。如果你自己寫文章，主要成本是時間；如果委外，通常每篇 SEO 文章費用約 3,000～8,000 元台幣不等，視字數與專業度而定。</p>
+    </div>
+
+    <h2 id="mistakes">中小企業常犯的三大錯誤</h2>
+
+    <h3>錯誤一：廣告跑了，但落地頁很爛</h3>
+    <p>很多老闆花大錢投廣告，但點進去的頁面資訊不清楚、手機版跑版、沒有明確的行動呼籲（CTA）。廣告再精準，頁面沒轉換力，錢就白花了。</p>
+    <p><strong>解法</strong>：廣告上線前，先確認落地頁在手機上顯示正常、資訊清楚、有明確的聯絡方式或表單。</p>
+
+    <h3>錯誤二：SEO 文章寫了，但沒有針對關鍵字</h3>
+    <p>很多企業主自己寫部落格，但寫的都是「公司動態」、「展覽紀錄」——這些對 SEO 沒有幫助，因為沒有人在搜尋這些詞。</p>
+    <p><strong>解法</strong>：每篇文章都要先做關鍵字研究，確認你寫的主題有真實的搜尋量，並且能對應潛在客戶的需求。</p>
+
+    <h3>錯誤三：廣告和 SEO 各自為政，沒有整合</h3>
+    <p>廣告用一套關鍵字，SEO 布局另一套，兩邊的數據沒有互相參考，等於做了兩份工作，卻沒發揮應有的效益。</p>
+    <p><strong>解法</strong>：每個月定期交叉分析廣告關鍵字報告與 SEO 排名數據，讓廣告幫助找到值得 SEO 攻克的關鍵字，讓 SEO 成果幫助廣告省掉不必要的出價。</p>
+
+    <div class="checklist">
+      <p class="checklist-title">整合 SEO＋廣告的執行清單</p>
+      <ul>
+        <li>建立 Google Analytics 4 追蹤自然流量與廣告流量來源</li>
+        <li>設定 Google Search Console，監測 SEO 關鍵字排名變化</li>
+        <li>每月匯出廣告關鍵字報告，找出高轉換詞交給 SEO 布局</li>
+        <li>對 SEO 已排名前三的關鍵字，降低或暫停廣告出價</li>
+        <li>廣告落地頁與 SEO 文章使用一致的 CTA 與聯絡方式</li>
+        <li>每季檢視整體行銷 CPL，動態調整廣告與 SEO 預算比例</li>
+      </ul>
+    </div>
+
+    <h2 id="faq">常見問題 FAQ</h2>
+
+    <div class="faq-item">
+      <p class="faq-q">只有很少的預算（月 1 萬以下），該怎麼辦？</p>
+      <p class="faq-a">預算極少的情況下，建議先全力投入 SEO——自己寫文章、優化 Google 商家檔案（Google Business Profile），這些都是低成本高效益的做法。廣告等有穩定現金流後再啟動，才不會在還沒有足夠預算的情況下，被廣告費用拖垮。</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Google Ads 跑起來，但完全沒有詢問，是哪裡出問題？</p>
+      <p class="faq-a">最常見的原因有三個：一是關鍵字選錯，選了搜尋量有但購買意圖低的詞；二是落地頁沒有說服力，訪客看完不知道下一步做什麼；三是目標設定太廣，廣告打給了不對的受眾。建議先確認這三點，再調整廣告策略。</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">SEO 做了三個月，排名還是沒動靜，正常嗎？</p>
+      <p class="faq-a">要看你的競爭對手有多強、你的網站權威度（Domain Authority）有多少、內容品質如何。如果競爭強的關鍵字，三個月沒太大排名變化是正常的。但如果連長尾關鍵字也毫無起色，建議檢查技術 SEO 是否有問題（網站被 noindex、速度太慢、內容重複等）。</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">我應該自己管廣告，還是找代操？</p>
+      <p class="faq-a">如果你的廣告月預算在 3 萬以下，自己學著管是划算的——因為代操費用通常佔廣告費的 15～20%。超過 3 萬以後，找專業代操的效益才會明顯超過費用。但不管自管或代操，你都要懂基本邏輯，才能判斷代操商做得好不好。</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">SEO 和 Google Ads 哪個 ROI 更高？</p>
+      <p class="faq-a">長期來看，SEO 的 ROI 通常更高，因為流量成本隨時間遞減。但短期（0～6 個月），廣告的即時性讓 ROI 更可預測。最理想的回答是：兩者結合，ROI 才會最大化——廣告負責短期轉換，SEO 負責長期降低成本。</p>
+    </div>
+
+    <div class="cta-box">
+      <h3>不確定如何分配你的行銷預算？</h3>
+      <p>豐蒂斯提供免費的 SEO 與廣告策略諮詢，根據你的產業、競爭環境與現有預算，幫你規劃最合適的搭配方案。</p>
+      <a href="index.html#contact" class="cta-btn">預約免費諮詢</a>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 <span>豐蒂斯 Fortis</span>｜數位行銷 × SEO 策略</p>
+</footer>
+
+</body>
+</html>
