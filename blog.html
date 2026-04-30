@@ -31,10 +31,10 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(247,243,236,
 .blog-main{max-width:1100px;margin:0 auto;padding:80px 5vw}
 .blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
 
-.post-card{background:var(--white);border:1px solid rgba(201,169,110,0.18);border-radius:16px;overflow:hidden;transition:all 0.3s;text-decoration:none;display:block}
+.post-card{background:var(--white);border:1px solid rgba(201,169,110,0.18);border-radius:16px;overflow:hidden;transition:all 0.3s;text-decoration:none;display:block;max-width:100%}
 .post-card:hover{transform:translateY(-6px);box-shadow:0 20px 50px rgba(90,58,30,0.1)}
-.post-card-top{background:var(--cream);min-height:240px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;width:100%}
-.post-card-top img{width:100%;height:240px;object-fit:cover;display:block;max-width:100%}
+.post-card-top{background:var(--cream);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;width:100%}
+.post-card-top img{width:100%;height:240px;object-fit:cover;display:block;box-sizing:border-box}
 .post-card-body{padding:24px 28px 28px}
 .post-cat{font-family:"Cinzel",serif;font-size:10px;letter-spacing:0.25em;color:var(--gold-deep);text-transform:uppercase;margin-bottom:10px}
 .post-title{font-family:"Noto Serif TC",serif;font-size:17px;font-weight:500;color:var(--brown-dark);line-height:1.5;margin-bottom:12px}
@@ -54,7 +54,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(247,243,236,
 footer{background:var(--brown-dark);padding:40px 5vw;text-align:center}
 footer p{font-size:13px;color:rgba(247,243,236,0.4)}
 footer span{color:var(--gold)}
-@media(max-width:900px){.blog-grid{grid-template-columns:1fr}.nav-links{display:none}}
+@media(max-width:900px){.blog-grid{grid-template-columns:1fr}.nav-links{display:none}.post-card-top img{height:200px!important;width:100%!important;object-fit:cover!important}}
 </style>
 </head>
 <body>
