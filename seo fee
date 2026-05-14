@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "豐蒂斯 Fortis SEO優化服務",
+  "url": "https://www.fortismarketing.com.tw",
+  "description": "專注於台灣市場的SEO內容策略與數位行銷",
+  "areaServed": "TW",
+  "offers": [
+    {"@type": "Offer", "name": "基礎SEO方案", "price": "25000", "priceCurrency": "TWD"},
+    {"@type": "Offer", "name": "進階SEO方案", "price": "40000", "priceCurrency": "TWD"}
+  ]
+}
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="SEO費用與收費方案｜豐蒂斯 Fortis">
+<meta property="og:description" content="豐蒂斯 Fortis 提供透明的SEO優化費用與收費方案。專注台灣市場的SEO內容策略，讓您的品牌被對的人找到。">
+<meta property="og:url" content="https://www.fortismarketing.com.tw/seo-fee.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="豐蒂斯 Fortis">
+<title>SEO費用與收費方案｜豐蒂斯 Fortis・透明報價</title>
+<meta name="description" content="豐蒂斯 Fortis 提供最透明的SEO優化費用與收費方案，包含SEO排名價格、SEO報價說明。專注台灣市場的SEO內容策略，讓您的品牌被對的人找到。">
+<meta name="keywords" content="SEO費用,SEO收費,SEO優化費用,SEO優化價格,SEO報價,SEO排名價格,SEO排名收費,台灣SEO">
+<link rel="canonical" href="https://www.fortismarketing.com.tw/seo-fee.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;700&family=Cinzel:wght@400;600&family=Noto+Sans+TC:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --cream: #F7F3EC;
+    --cream-dark: #EDE6D8;
+    --gold: #C9A96E;
+    --gold-deep: #A07840;
+    --brown: #5C3A1E;
+    --brown-dark: #3E2509;
+    --brown-light: #8B5E32;
+    --text-main: #3E2509;
+    --text-mid: #7A5530;
+    --text-light: #A08060;
+    --white: #FFFDF9;
+  }
+
+  html { scroll-behavior: smooth; overflow-x: hidden; }
+
+  body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background: var(--cream);
+    color: var(--text-main);
+    line-height: 1.8;
+    overflow-x: hidden;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(247,243,236,0.95);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(201,169,110,0.25);
+    padding: 0 5vw;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+  }
+
+  .nav-logo-name {
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--brown);
+    letter-spacing: 0.1em;
+  }
+
+  .nav-logo-sub {
+    font-size: 11px;
+    color: var(--text-light);
+    letter-spacing: 0.05em;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 14px;
+    color: var(--text-mid);
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    transition: color 0.3s;
+  }
+
+  .nav-links a:hover { color: var(--brown); }
+
+  .nav-cta {
+    background: var(--brown);
+    color: var(--cream) !important;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 13px !important;
+    transition: background 0.3s !important;
+  }
+
+  .nav-cta:hover { background: var(--gold-deep) !important; }
+
+  /* HERO */
+  .hero {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 5vw 80px;
+    background: var(--cream);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .hero-bg-circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid rgba(201,169,110,0.2);
+    animation: rotateSlow 30s linear infinite;
+    pointer-events: none;
+  }
+
+  .hero-bg-circle:nth-child(1) { width: 600px; height: 600px; top: -150px; right: -150px; }
+  .hero-bg-circle:nth-child(2) { width: 900px; height: 900px; top: -300px; right: -300px; border-style: dashed; animation-duration: 50s; animation-direction: reverse; }
+  .hero-bg-circle:nth-child(3) { width: 400px; height: 400px; bottom: -100px; left: -100px; border-color: rgba(201,169,110,0.12); }
+
+  @keyframes rotateSlow { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+  .hero-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 750px;
+    width: 100%;
+  }
+
+  .hero-eyebrow {
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 0.35em;
+    color: var(--gold-deep);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .hero-eyebrow::before, .hero-eyebrow::after {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 1px;
+    background: var(--gold);
+  }
+
+  .hero-title {
+    font-family: 'Noto Serif TC', serif;
+    font-size: clamp(30px, 4vw, 50px);
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--brown-dark);
+    margin-bottom: 24px;
+  }
+
+  .hero-title em {
+    font-style: normal;
+    color: var(--gold-deep);
+  }
+
+  .hero-desc {
+    font-size: 15px;
+    color: var(--text-mid);
+    line-height: 2;
+    margin-bottom: 40px;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-btns {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .btn-primary {
+    background: var(--brown);
+    color: var(--cream);
+    padding: 14px 32px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    transition: all 0.3s;
+  }
+
+  .btn-primary:hover { background: var(--brown-dark); transform: translateY(-2px); }
+
+  .btn-secondary {
+    border: 1px solid var(--gold);
+    color: var(--gold-deep);
+    padding: 14px 32px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    transition: all 0.3s;
+  }
+
+  .btn-secondary:hover { background: rgba(201,169,110,0.1); transform: translateY(-2px); }
+
+  /* STATS BAR */
+  .stats-bar {
+    background: var(--brown);
+    padding: 36px 5vw;
+  }
+
+  .stats-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+  }
+
+  .stat-num {
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--gold);
+    display: block;
+  }
+
+  .stat-label {
+    font-size: 13px;
+    color: rgba(247,243,236,0.7);
+    margin-top: 4px;
+    letter-spacing: 0.05em;
+  }
+
+  /* SECTION COMMON */
+  section { padding: 100px 5vw; }
+  .section-inner { max-width: 1100px; margin: 0 auto; }
+
+  .section-eyebrow {
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 0.35em;
+    color: var(--gold-deep);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .section-eyebrow::before {
+    content: '';
+    width: 24px;
+    height: 1px;
+    background: var(--gold);
+    display: block;
+  }
+
+  .section-title {
+    font-family: 'Noto Serif TC', serif;
+    font-size: clamp(24px, 3vw, 36px);
+    font-weight: 500;
+    color: var(--brown-dark);
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+
+  .section-desc {
+    font-size: 15px;
+    color: var(--text-mid);
+    line-height: 2;
+    max-width: 540px;
+    margin-bottom: 60px;
+  }
+
+  /* PRICING SECTION */
+  #pricing { background: var(--cream); }
+
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    max-width: 820px;
+  }
+
+  .plan-card {
+    background: var(--white);
+    border: 1px solid rgba(201,169,110,0.2);
+    border-radius: 16px;
+    padding: 40px 32px;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .plan-card::before {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--gold), var(--brown-light));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s;
+  }
+
+  .plan-card:hover { transform: translateY(-6px); box-shadow: 0 20px 50px rgba(90,58,30,0.1); }
+  .plan-card:hover::before { transform: scaleX(1); }
+
+  .plan-card.featured {
+    background: var(--brown-dark);
+    border-color: rgba(201,169,110,0.35);
+  }
+
+  .plan-card.featured::before { transform: scaleX(1); background: linear-gradient(90deg, var(--gold), var(--gold-deep)); }
+  .plan-card.featured:hover { transform: translateY(-6px); box-shadow: 0 20px 50px rgba(62,37,9,0.3); }
+
+  .plan-badge {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold-deep);
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .plan-card.featured .plan-badge { color: var(--gold); }
+
+  .plan-name {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--brown-dark);
+    margin-bottom: 6px;
+  }
+
+  .plan-card.featured .plan-name { color: var(--cream); }
+
+  .plan-tagline {
+    font-size: 13px;
+    color: var(--text-light);
+    margin-bottom: 28px;
+    line-height: 1.7;
+  }
+
+  .plan-card.featured .plan-tagline { color: rgba(247,243,236,0.6); }
+
+  .plan-price-wrap {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid rgba(201,169,110,0.2);
+  }
+
+  .plan-card.featured .plan-price-wrap { border-color: rgba(201,169,110,0.3); }
+
+  .plan-price {
+    font-family: 'Cinzel', serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--gold-deep);
+  }
+
+  .plan-card.featured .plan-price { color: var(--gold); }
+
+  .plan-price span {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 13px;
+    color: var(--text-light);
+    font-weight: 400;
+  }
+
+  .plan-card.featured .plan-price span { color: rgba(247,243,236,0.5); }
+
+  .plan-features {
+    list-style: none;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .plan-features li {
+    font-size: 14px;
+    color: var(--text-mid);
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    line-height: 1.6;
+  }
+
+  .plan-card.featured .plan-features li { color: rgba(247,243,236,0.75); }
+
+  .plan-features li::before {
+    content: '✦';
+    color: var(--gold);
+    font-size: 10px;
+    flex-shrink: 0;
+    margin-top: 4px;
+  }
+
+  .plan-btn {
+    display: block;
+    text-align: center;
+    padding: 13px;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    transition: all 0.3s;
+    border: 1px solid rgba(201,169,110,0.4);
+    color: var(--gold-deep);
+  }
+
+  .plan-btn:hover { background: var(--cream-dark); transform: translateY(-1px); }
+
+  .plan-card.featured .plan-btn {
+    background: var(--gold);
+    border-color: var(--gold);
+    color: var(--brown-dark);
+  }
+
+  .plan-card.featured .plan-btn:hover { background: var(--gold-deep); color: var(--cream); }
+
+  /* PROCESS SECTION */
+  #process { background: var(--white); }
+
+  .process-steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    margin-top: 20px;
+    position: relative;
+  }
+
+  .process-steps::before {
+    content: '';
+    position: absolute;
+    top: 28px;
+    left: 12%;
+    right: 12%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  }
+
+  .step {
+    text-align: center;
+    padding: 20px 16px;
+  }
+
+  .step-num {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: var(--white);
+    border: 1px solid rgba(201,169,110,0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-family: 'Cinzel', serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gold-deep);
+    position: relative;
+    z-index: 1;
+  }
+
+  .step-title {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--brown-dark);
+    margin-bottom: 10px;
+  }
+
+  .step-desc {
+    font-size: 12px;
+    color: var(--text-light);
+    line-height: 1.8;
+  }
+
+  /* COMPARE SECTION */
+  #compare { background: var(--cream); }
+
+  .compare-wrap {
+    background: var(--white);
+    border: 1px solid rgba(201,169,110,0.2);
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  table { width: 100%; border-collapse: collapse; }
+
+  thead th {
+    padding: 16px 24px;
+    text-align: left;
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-light);
+    background: var(--cream);
+    border-bottom: 1px solid rgba(201,169,110,0.2);
+  }
+
+  thead th:first-child { color: var(--brown); }
+
+  tbody td {
+    padding: 16px 24px;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(201,169,110,0.1);
+    color: var(--text-mid);
+    line-height: 1.6;
+  }
+
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover td { background: var(--cream); }
+  tbody td:first-child { color: var(--brown-dark); font-weight: 500; }
+
+  .chk { color: var(--gold-deep); font-weight: 600; }
+  .neutral { color: var(--text-light); }
+
+  /* FAQ SECTION */
+  #faq { background: var(--white); }
+
+  .faq-list { margin-top: 8px; }
+
+  .faq-item {
+    border-bottom: 1px solid rgba(201,169,110,0.2);
+  }
+
+  .faq-item:first-child { border-top: 1px solid rgba(201,169,110,0.2); }
+
+  .faq-btn {
+    width: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 22px 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    color: var(--brown-dark);
+    font-family: 'Noto Serif TC', serif;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .faq-btn:hover { color: var(--gold-deep); }
+
+  .faq-icon {
+    color: var(--gold);
+    font-size: 20px;
+    font-weight: 300;
+    flex-shrink: 0;
+    transition: transform 0.3s;
+    font-family: 'Cinzel', serif;
+  }
+
+  .faq-item.open .faq-icon { transform: rotate(45deg); }
+
+  .faq-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+  }
+
+  .faq-item.open .faq-body { max-height: 400px; }
+
+  .faq-body-inner {
+    padding-bottom: 22px;
+    font-size: 14px;
+    line-height: 2;
+    color: var(--text-mid);
+  }
+
+  .faq-body-inner strong { color: var(--brown); }
+
+  /* CTA SECTION */
+  #cta { background: var(--brown-dark); padding: 100px 5vw; }
+
+  #cta .section-eyebrow { color: var(--gold); }
+  #cta .section-eyebrow::before { background: var(--gold); }
+  #cta .section-title { color: var(--cream); }
+
+  .cta-desc {
+    font-size: 15px;
+    color: rgba(247,243,236,0.65);
+    line-height: 2;
+    max-width: 480px;
+    margin-bottom: 40px;
+  }
+
+  .cta-btns {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .btn-gold {
+    background: var(--gold);
+    color: var(--brown-dark);
+    padding: 14px 36px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    transition: all 0.3s;
+  }
+
+  .btn-gold:hover { background: var(--gold-deep); color: var(--cream); transform: translateY(-2px); }
+
+  .btn-outline-cream {
+    border: 1px solid rgba(201,169,110,0.4);
+    color: rgba(247,243,236,0.75);
+    padding: 14px 32px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    transition: all 0.3s;
+  }
+
+  .btn-outline-cream:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-2px); }
+
+  /* FOOTER */
+  footer {
+    background: var(--brown-dark);
+    border-top: 1px solid rgba(201,169,110,0.15);
+    padding: 60px 5vw 30px;
+  }
+
+  .footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .footer-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 60px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(201,169,110,0.15);
+    margin-bottom: 30px;
+  }
+
+  .footer-brand-name {
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    color: var(--gold);
+    letter-spacing: 0.1em;
+    margin-bottom: 12px;
+  }
+
+  .footer-brand-desc {
+    font-size: 13px;
+    color: rgba(247,243,236,0.5);
+    line-height: 1.9;
+  }
+
+  .footer-col-title {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+  }
+
+  .footer-col ul { list-style: none; }
+
+  .footer-col ul li { margin-bottom: 10px; }
+
+  .footer-col ul li a {
+    font-size: 13px;
+    color: rgba(247,243,236,0.5);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .footer-col ul li a:hover { color: var(--gold); }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .footer-copy {
+    font-size: 12px;
+    color: rgba(247,243,236,0.35);
+    letter-spacing: 0.05em;
+  }
+
+  .footer-copy span { color: var(--gold); }
+
+  /* REVEAL ANIMATION */
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+
+  .reveal.visible { opacity: 1; transform: none; }
+
+  /* MOBILE */
+  @media (max-width: 768px) {
+    .pricing-grid, .process-steps, .stats-inner, .footer-top { grid-template-columns: 1fr; }
+    .process-steps::before { display: none; }
+    nav { padding: 0 20px; }
+    .nav-links { display: none; }
+    .hero { padding: 100px 5vw 60px; }
+    section { padding: 70px 5vw; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="https://www.fortismarketing.com.tw/" class="nav-logo">
+    <div>
+      <div class="nav-logo-name">Fortis</div>
+      <div class="nav-logo-sub">豐蒂斯・SEO 內容策略</div>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="https://www.fortismarketing.com.tw/#about">關於我們</a></li>
+    <li><a href="https://www.fortismarketing.com.tw/#services">服務項目</a></li>
+    <li><a href="https://www.fortismarketing.com.tw/#cases">成功案例</a></li>
+    <li><a href="https://www.fortismarketing.com.tw/#process">合作流程</a></li>
+    <li><a href="blog.html">知識專欄</a></li>
+    <li><a href="seo-fee.html" style="color: var(--gold-deep); font-weight: 500;">SEO 費用</a></li>
+    <li><a href="https://www.fortismarketing.com.tw/#contact" class="nav-cta">免費諮詢</a></li>
+  </ul>
+</nav>
+<div class="hero">
+  <div class="hero-bg-circle"></div>
+  <div class="hero-bg-circle"></div>
+  <div class="hero-bg-circle"></div>
+  <div class="hero-inner">
+    <div class="hero-eyebrow">SEO 費用透明公開</div>
+    <h1 class="hero-title">
+      讓品牌被<em>對的人</em>找到<br>從透明的 SEO 費用開始
+    </h1>
+    <p class="hero-desc">豐蒂斯 Fortis 專注台灣市場的 SEO 內容策略。不玩模糊報價，所有 SEO 收費一目了然，讓您的每一分投資都看得見回報。</p>
+    <div class="hero-btns">
+      <a href="#pricing" class="btn-primary">查看 SEO 報價方案</a>
+      <a href="#faq" class="btn-secondary">常見問題</a>
+    </div>
+  </div>
+</div>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="reveal">
+      <span class="stat-num">200+</span>
+      <div class="stat-label">服務品牌數</div>
+    </div>
+    <div class="reveal">
+      <span class="stat-num">93%</span>
+      <div class="stat-label">關鍵字上首頁率</div>
+    </div>
+    <div class="reveal">
+      <span class="stat-num">6 個月</span>
+      <div class="stat-label">平均見效時間</div>
+    </div>
+    <div class="reveal">
+      <span class="stat-num">0</span>
+      <div class="stat-label">隱藏費用</div>
+    </div>
+  </div>
+</div>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="section-inner">
+    <div class="section-eyebrow">SEO 收費方案</div>
+    <h2 class="section-title">找到最適合你的<br>SEO 優化費用方案</h2>
+    <p class="section-desc">所有方案均含月報、關鍵字追蹤與專人服務。SEO 報價以台幣計，每月固定費用，無隱藏收費。</p>
+
+    <div class="pricing-grid">
+      <div class="plan-card reveal">
+        <span class="plan-badge">✦ 入門首選</span>
+        <div class="plan-name">基礎 SEO 方案</div>
+        <div class="plan-tagline">適合剛起步、想透過內容建立 SEO 基礎的品牌</div>
+        <div class="plan-price-wrap">
+          <div class="plan-price">NT$25,000 <span>/ 月</span></div>
+        </div>
+        <ul class="plan-features">
+          <li>5 組目標關鍵字 SEO 優化</li>
+          <li>SEO 內容撰寫 8 篇 / 月</li>
+          <li>網站技術 SEO 健診與建議</li>
+          <li>Google Search Console 設定</li>
+          <li>每月 SEO 成效報告</li>
+        </ul>
+        <a href="#cta" class="plan-btn">取得 SEO 報價</a>
+      </div>
+
+      <div class="plan-card featured reveal">
+        <span class="plan-badge">✦ 最受歡迎</span>
+        <div class="plan-name">進階 SEO 方案</div>
+        <div class="plan-tagline">最多客戶選擇，全方位 SEO 優化策略</div>
+        <div class="plan-price-wrap">
+          <div class="plan-price">NT$40,000 <span>/ 月</span></div>
+        </div>
+        <ul class="plan-features">
+          <li>30 組目標關鍵字 SEO 優化</li>
+          <li>SEO 內容撰寫 16 篇 / 月</li>
+          <li>完整技術 SEO 優化執行</li>
+          <li>競爭對手關鍵字分析</li>
+          <li>每月詳細 SEO 排名報告</li>
+        </ul>
+        <a href="#cta" class="plan-btn">取得 SEO 報價</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="section-inner">
+    <div class="section-eyebrow">SEO 服務流程</div>
+    <h2 class="section-title">每一分 SEO 費用<br>都花在刀口上</h2>
+    <p class="section-desc">豐蒂斯 Fortis 有系統的四步驟，讓 SEO 優化費用發揮最大效益，從健診到成效報告全程透明。</p>
+
+    <div class="process-steps">
+      <div class="step reveal">
+        <div class="step-num">01</div>
+        <div class="step-title">免費網站健診</div>
+        <div class="step-desc">分析現有 SEO 狀況，提供客製化的 SEO 優化費用報價，不收諮詢費用。</div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">02</div>
+        <div class="step-title">關鍵字策略規劃</div>
+        <div class="step-desc">挖掘高商業價值關鍵字，制定 SEO 排名策略，確保 SEO 收費有明確目標。</div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">03</div>
+        <div class="step-title">技術優化與內容</div>
+        <div class="step-desc">修正技術問題、優化頁面結構、產製高品質 SEO 內容，全面提升搜尋排名。</div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">04</div>
+        <div class="step-title">成效追蹤報告</div>
+        <div class="step-desc">每月詳細的 SEO 成效報告，包含排名變化、流量數據，清楚看見投資回報。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARE -->
+<section id="compare">
+  <div class="section-inner">
+    <div class="section-eyebrow">為什麼選擇豐蒂斯</div>
+    <h2 class="section-title">我們的 SEO 服務<br>與其他廠商有何不同</h2>
+    <div class="compare-wrap reveal">
+      <table>
+        <thead>
+          <tr>
+            <th>比較項目</th>
+            <th>豐蒂斯 Fortis</th>
+            <th>一般 SEO 廠商</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>SEO 費用透明度</td>
+            <td><span class="chk">✦</span> 公開收費標準，無隱藏費用</td>
+            <td><span class="neutral">△</span> 費用不明，需另行詢問</td>
+          </tr>
+          <tr>
+            <td>台灣在地 SEO 專業</td>
+            <td><span class="chk">✦</span> 深耕台灣市場，熟悉繁體中文 SEO</td>
+            <td><span class="neutral">△</span> 多為套版服務</td>
+          </tr>
+          <tr>
+            <td>SEO 成效保證</td>
+            <td><span class="chk">✦</span> 明確 KPI，每月追蹤排名</td>
+            <td><span class="neutral">✕</span> 無具體承諾</td>
+          </tr>
+          <tr>
+            <td>客製化 SEO 策略</td>
+            <td><span class="chk">✦</span> 依產業與品牌量身規劃</td>
+            <td><span class="neutral">✕</span> 固定套餐不彈性</td>
+          </tr>
+          <tr>
+            <td>SEO 優化費用彈性</td>
+            <td><span class="chk">✦</span> 可依預算與目標調整</td>
+            <td><span class="neutral">△</span> 通常固定費率</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="section-inner">
+    <div class="section-eyebrow">常見問題</div>
+    <h2 class="section-title">SEO 費用<br>你最想知道的事</h2>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-btn" onclick="toggleFaq(this)">
+          SEO 費用為什麼差這麼多？
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-body">
+          <div class="faq-body-inner">SEO 收費差異主要來自三個面向：<strong>關鍵字競爭程度、目標關鍵字數量、服務範圍</strong>。競爭激烈的產業（如醫美、法律、金融）所需 SEO 優化費用自然較高，因為需要更多內容、外鏈與時間。詢問 SEO 報價時，務必確認是否涵蓋技術優化、內容產製與外鏈建立這三項核心服務。</div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn" onclick="toggleFaq(this)">
+          SEO 優化費用包含哪些項目？
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-body">
+          <div class="faq-body-inner">完整的 SEO 收費通常包含：<strong>技術 SEO（網站速度、結構化資料、行動版優化）、關鍵字研究與佈局、內容優化與撰寫、外部連結建立、以及成效追蹤報告</strong>。豐蒂斯 Fortis 的所有 SEO 費用方案皆清楚列出服務項目，不追加隱藏費用。</div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn" onclick="toggleFaq(this)">
+          SEO 要多久才能看到效果？
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-body">
+          <div class="faq-body-inner">一般 SEO 優化需要 <strong>3 至 6 個月</strong>才能看到明顯排名提升。豐蒂斯 Fortis 通常第 1 個月完成技術優化，第 2–3 個月 Google 爬蟲指數開始改善，第 4–6 個月進入穩定排名成長期。相比廣告投放，SEO 排名價格雖需等待，但效果更持久，停止服務後流量仍可維持。</div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn" onclick="toggleFaq(this)">
+          SEO 報價可以客製化嗎？
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-body">
+          <div class="faq-body-inner">可以。豐蒂斯 Fortis 提供完全<strong>客製化的 SEO 費用方案</strong>。只需告訴我們您的產業、目標、月預算，我們會規劃最適合的 SEO 優化費用配置，讓投資報酬率最大化。服務橫跨醫美、光電、地材等多元產業，經驗豐富。</div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn" onclick="toggleFaq(this)">
+          SEO 排名收費和廣告投放哪個更划算？
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-body">
+          <div class="faq-body-inner">廣告效果即時但<strong>停止付費就停止曝光</strong>；SEO 排名收費雖需 3–6 個月才見效，但一旦關鍵字穩定在首頁，即使減少投入仍能持續帶來自然流量。豐蒂斯 Fortis 建議初期搭配廣告，同時建立 SEO 基礎，讓 SEO 費用與廣告預算相輔相成。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta">
+  <div class="section-inner">
+    <div class="section-eyebrow">立即開始</div>
+    <h2 class="section-title">免費取得 SEO 報價</h2>
+    <p class="cta-desc">告訴我們您的需求，豐蒂斯 Fortis 將在 24 小時內提供客製化 SEO 費用方案，讓您的品牌被對的人找到。</p>
+    <div class="cta-btns">
+      <a href="https://www.fortismarketing.com.tw/#contact" class="btn-gold">立即詢問 SEO 收費</a>
+      <a href="https://www.fortismarketing.com.tw/" class="btn-outline-cream">了解更多服務</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand-name">Fortis 豐蒂斯</div>
+        <p class="footer-brand-desc">豐蒂斯（Fortis）是專注於 SEO 內容策略與數位行銷的台灣代理商，用真實的內容為品牌建立長久的搜尋能見度。</p>
+      </div>
+      <div class="footer-col">
+        <p class="footer-col-title">服務</p>
+        <ul>
+          <li><a href="https://www.fortismarketing.com.tw/#services">SEO 內容策略</a></li>
+          <li><a href="https://www.fortismarketing.com.tw/#services">在地 SEO 優化</a></li>
+          <li><a href="https://www.fortismarketing.com.tw/#services">數位廣告投放</a></li>
+          <li><a href="https://www.fortismarketing.com.tw/#services">SEO 健檢診斷</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p class="footer-col-title">關於</p>
+        <ul>
+          <li><a href="https://www.fortismarketing.com.tw/#about">品牌故事</a></li>
+          <li><a href="https://www.fortismarketing.com.tw/#cases">成功案例</a></li>
+          <li><a href="https://www.fortismarketing.com.tw/#contact">聯絡我們</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2025 <span>豐蒂斯 Fortis</span>. All rights reserved.</p>
+      <p class="footer-copy">讓品牌被對的人找到 ✦</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function toggleFaq(btn) {
+    const item = btn.closest('.faq-item');
+    const open = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!open) item.classList.add('open');
+  }
+
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.classList.add('visible');
+        }, 80 * (Array.from(reveals).indexOf(entry.target) % 4));
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  reveals.forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
