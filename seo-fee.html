@@ -10,8 +10,9 @@
   "description": "專注於台灣市場的SEO內容策略與數位行銷",
   "areaServed": "TW",
   "offers": [
-    {"@type": "Offer", "name": "基礎SEO方案", "price": "25000", "priceCurrency": "TWD"},
-    {"@type": "Offer", "name": "進階SEO方案", "price": "40000", "priceCurrency": "TWD"}
+    {"@type": "Offer", "name": "小資SEO方案", "price": "25000", "priceCurrency": "TWD"},
+    {"@type": "Offer", "name": "基礎SEO方案", "price": "40000", "priceCurrency": "TWD"},
+    {"@type": "Offer", "name": "成長SEO方案", "price": "60000", "priceCurrency": "TWD"}
   ]
 }
 </script>
@@ -308,9 +309,9 @@
 
   .pricing-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 32px;
-    max-width: 820px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 1100px;
   }
 
   .plan-card {
@@ -386,7 +387,7 @@
 
   .plan-price {
     font-family: 'Cinzel', serif;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 600;
     color: var(--gold-deep);
   }
@@ -704,16 +705,13 @@
   }
 
   .footer-col ul { list-style: none; }
-
   .footer-col ul li { margin-bottom: 10px; }
-
   .footer-col ul li a {
     font-size: 13px;
     color: rgba(247,243,236,0.5);
     text-decoration: none;
     transition: color 0.2s;
   }
-
   .footer-col ul li a:hover { color: var(--gold); }
 
   .footer-bottom {
@@ -772,6 +770,8 @@
     <li><a href="https://www.fortismarketing.com.tw/#contact" class="nav-cta">免費諮詢</a></li>
   </ul>
 </nav>
+
+<!-- HERO -->
 <div class="hero">
   <div class="hero-bg-circle"></div>
   <div class="hero-bg-circle"></div>
@@ -816,42 +816,70 @@
   <div class="section-inner">
     <div class="section-eyebrow">SEO 收費方案</div>
     <h2 class="section-title">找到最適合你的<br>SEO 優化費用方案</h2>
-    <p class="section-desc">所有方案均含月報、關鍵字追蹤與專人服務。SEO 報價以台幣計，每月固定費用，無隱藏收費。</p>
+    <p class="section-desc">所有方案均含月報、關鍵字追蹤與專人服務。SEO 報價以台幣計，每月固定費用，無隱藏收費。最低合約 6 個月。</p>
 
     <div class="pricing-grid">
+
+      <!-- 小資方案 -->
       <div class="plan-card reveal">
-        <span class="plan-badge">✦ 入門首選</span>
-        <div class="plan-name">基礎 SEO 方案</div>
-        <div class="plan-tagline">適合剛起步、想透過內容建立 SEO 基礎的品牌</div>
+        <span class="plan-badge">✦ 輕鬆入門</span>
+        <div class="plan-name">小資方案</div>
+        <div class="plan-tagline">適合剛起步、想用低成本建立 SEO 基礎的企業</div>
         <div class="plan-price-wrap">
           <div class="plan-price">NT$25,000 <span>/ 月</span></div>
         </div>
         <ul class="plan-features">
-          <li>5 組目標關鍵字 SEO 優化</li>
-          <li>SEO 內容撰寫 8 篇 / 月</li>
-          <li>網站技術 SEO 健診與建議</li>
-          <li>Google Search Console 設定</li>
-          <li>每月 SEO 成效報告</li>
+          <li>關鍵字研究與內容規劃</li>
+          <li>每月 4 篇 SEO 優化文章</li>
+          <li>技術 SEO 基礎優化</li>
+          <li>每月排名追蹤報告</li>
+          <li>每月一次執行會議（30 分鐘）</li>
+          <li>最低合約 6 個月</li>
         </ul>
-        <a href="#cta" class="plan-btn">取得 SEO 報價</a>
+        <a href="#cta" class="plan-btn">預約免費諮詢</a>
       </div>
 
+      <!-- 基礎方案（執行型） -->
       <div class="plan-card featured reveal">
         <span class="plan-badge">✦ 最受歡迎</span>
-        <div class="plan-name">進階 SEO 方案</div>
-        <div class="plan-tagline">最多客戶選擇，全方位 SEO 優化策略</div>
+        <div class="plan-name">基礎方案（執行型）</div>
+        <div class="plan-tagline">適合初入 SEO、需要全方位執行的企業</div>
         <div class="plan-price-wrap">
           <div class="plan-price">NT$40,000 <span>/ 月</span></div>
         </div>
         <ul class="plan-features">
-          <li>30 組目標關鍵字 SEO 優化</li>
-          <li>SEO 內容撰寫 16 篇 / 月</li>
-          <li>完整技術 SEO 優化執行</li>
-          <li>競爭對手關鍵字分析</li>
-          <li>每月詳細 SEO 排名報告</li>
+          <li>關鍵字研究與策略規劃</li>
+          <li>每月 16 篇 SEO 優化文章</li>
+          <li>文章上稿一條龍服務</li>
+          <li>技術 SEO 全面優化</li>
+          <li>每月詳細排名成效報告</li>
+          <li>每月會議（30 分鐘）</li>
+          <li>最低合約 6 個月</li>
         </ul>
-        <a href="#cta" class="plan-btn">取得 SEO 報價</a>
+        <a href="#cta" class="plan-btn">預約免費諮詢</a>
       </div>
+
+      <!-- 成長方案（策略型） -->
+      <div class="plan-card reveal">
+        <span class="plan-badge">✦ 積極擴展</span>
+        <div class="plan-name">成長方案（策略型）</div>
+        <div class="plan-tagline">適合積極擴展市場、尋求全面 SEO 策略的品牌</div>
+        <div class="plan-price-wrap">
+          <div class="plan-price">NT$60,000 <span>/ 月</span></div>
+        </div>
+        <ul class="plan-features">
+          <li>季度 SEO 策略規劃</li>
+          <li>競品關鍵字監控分析</li>
+          <li>關鍵字研究與佈局</li>
+          <li>每月 16 篇文章＋上稿</li>
+          <li>全面技術 SEO 優化</li>
+          <li>AI 產圖輔助視覺內容</li>
+          <li>進階成效報告與策略建議</li>
+          <li>最低合約 6 個月</li>
+        </ul>
+        <a href="#cta" class="plan-btn">預約免費諮詢</a>
+      </div>
+
     </div>
   </div>
 </section>
