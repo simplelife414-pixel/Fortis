@@ -44,7 +44,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     --brown: #5C3A1E; --brown-dark: #3E2509; --brown-light: #8B5E32;
     --text-main: #3E2509; --text-mid: #7A5530; --text-light: #A08060; --white: #FFFDF9;
   }
-  html { scroll-behavior: smooth; overflow-x: hidden; }
+  html { scroll-behavior: smooth; overflow-x: hidden; scroll-padding-top: 80px; }
   body { font-family: 'Noto Sans TC', sans-serif; background: var(--cream); color: var(--text-main); line-height: 1.8; overflow-x: hidden; }
 
   /* NAV */
@@ -772,6 +772,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 function toggleMenu() {
   document.getElementById('mobileMenu').classList.toggle('open');
 }
+
+// 點擊手機選單連結後自動關閉選單
+document.addEventListener('DOMContentLoaded', function() {
+  const mobileLinks = document.querySelectorAll('#mobileMenu a');
+  mobileLinks.forEach(function(link) {
+    link.addEventListener('click', function() {
+      document.getElementById('mobileMenu').classList.remove('open');
+    });
+  });
+});
 const reveals = document.querySelectorAll('.reveal');
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(e => { if(e.isIntersecting) { e.target.classList.add('visible'); } });
