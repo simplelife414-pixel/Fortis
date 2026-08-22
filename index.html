@@ -11,10 +11,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
+  "@type": "Organization",
   "name": "豐蒂斯行銷",
   "alternateName": "Fortis Marketing",
-  "url": "https://www.fortismarketing.com.tw"
+  "url": "https://www.fortismarketing.com.tw",
+  "description": "豐蒂斯 Fortis 提供 AI SEO（生成式引擎優化 GEO）與傳統 SEO 內容策略雙軌服務，讓品牌同時被 Google 搜尋與 ChatGPT、Perplexity、AI Overviews 等生成式 AI 找到。",
+  "knowsAbout": ["SEO", "AI SEO", "GEO", "生成式引擎優化", "AI Overviews 優化", "內容行銷", "數位廣告"],
+  "areaServed": "TW"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "AI SEO / GEO（生成式引擎優化）",
+  "provider": { "@type": "Organization", "name": "豐蒂斯行銷" },
+  "areaServed": "TW",
+  "description": "AI Prompt Research、AI 引用與品牌提及追蹤、AI 問答式內容架構設計，讓品牌在 ChatGPT、Google AI Overviews、Perplexity 等生成式 AI 搜尋中被主動引用推薦。"
 }
 </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HBX7MRXJ17"></script>
@@ -27,14 +40,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:title" content="豐蒂斯 Fortis｜SEO 內容策略・數位行銷">
-<meta property="og:description" content="讓你的品牌被對的人找到。專注於台灣市場的 SEO 內容策略與數位行銷，服務橫跨醫美、光電、地材等多元產業。">
+<meta property="og:title" content="豐蒂斯 Fortis｜AI SEO・內容策略・數位行銷">
+<meta property="og:description" content="讓你的品牌被對的人、也被 AI 找到。專注於台灣市場的 AI SEO 與內容策略，服務橫跨醫美、光電、地材等多元產業。">
 <meta property="og:image" content="https://www.fortismarketing.com.tw/og-image.jpg">
 <meta property="og:url" content="https://www.fortismarketing.com.tw">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="豐蒂斯行銷">
+<meta name="description" content="豐蒂斯 Fortis 提供 AI SEO（GEO 生成式引擎優化）與傳統 SEO 內容策略雙軌服務，讓品牌同時被 Google 搜尋與 ChatGPT、Perplexity、AI Overviews 找到。服務橫跨醫美、光電、地材等多元產業。">
+<meta name="keywords" content="AI SEO, GEO, 生成式引擎優化, AI Overviews 優化, SEO 內容策略, 數位行銷, 台灣 SEO">
 <meta name="google-site-verification" content="TIa0vZON2Zl-AFzd8rI5rx6QJlsvXtsgARPke1X9WuQ" />
-<title>豐蒂斯行銷｜SEO 內容策略・數位行銷</title>
+<title>豐蒂斯行銷｜AI SEO・內容策略・數位行銷</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;700&family=Cinzel:wght@400;600&family=Noto+Sans+TC:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -256,7 +271,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   .pricing-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 32px;
     margin-top: 20px;
   }
@@ -382,9 +397,139 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   .pricing-card.featured .pricing-cta:hover { background: var(--gold-deep); }
 
+  @media (max-width: 1100px) {
+    .pricing-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
   @media (max-width: 900px) {
     .pricing-grid { grid-template-columns: 1fr; }
     .pricing-card { padding: 40px 28px; }
+  }
+
+  /* COMPARISON TABLE */
+  .compare-wrap {
+    overflow-x: auto;
+    border-radius: 16px;
+    border: 1px solid rgba(201,169,110,0.25);
+    background: var(--white);
+    -webkit-overflow-scrolling: touch;
+    margin-top: 20px;
+  }
+
+  .compare-table {
+    width: 100%;
+    min-width: 720px;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+
+  .compare-table th, .compare-table td {
+    padding: 16px 18px;
+    text-align: center;
+    border-bottom: 1px solid rgba(201,169,110,0.18);
+  }
+
+  .compare-table th:first-child, .compare-table td:first-child {
+    text-align: left;
+    color: var(--text-mid);
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  .compare-table thead th {
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 500;
+    color: var(--brown-dark);
+    background: var(--cream-dark);
+    font-size: 15px;
+  }
+
+  .compare-table thead th.compare-featured {
+    background: var(--brown);
+    color: var(--cream);
+    position: relative;
+  }
+
+  .compare-badge-inline {
+    display: block;
+    font-size: 12px;
+    color: var(--gold);
+    margin-bottom: 4px;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+
+  .compare-table td.compare-featured, .compare-table tbody tr:hover td.compare-featured {
+    background: rgba(201,169,110,0.08);
+  }
+
+  .compare-price-row td { font-family: 'Noto Serif TC', serif; font-size: 18px; color: var(--gold-deep); font-weight: 500; }
+  .compare-price-row td:first-child { font-family: 'Noto Sans TC', sans-serif; font-size: 14px; color: var(--text-mid); font-weight: 500; }
+
+  .compare-check { color: var(--gold-deep); font-weight: 700; }
+  .compare-dash { color: var(--text-light); }
+
+  .compare-cta-row td { border-bottom: none; padding-top: 24px; padding-bottom: 24px; }
+
+  .compare-cta-row a {
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    background: var(--brown);
+    color: var(--cream);
+    transition: all 0.3s;
+  }
+
+  .compare-cta-row a:hover { background: var(--brown-dark); }
+
+  .compare-cta-row td.compare-featured a {
+    background: var(--gold);
+    color: var(--white);
+  }
+
+  .compare-cta-row td.compare-featured a:hover { background: var(--gold-deep); }
+
+  .compare-note {
+    text-align: center;
+    font-size: 13px;
+    color: var(--text-light);
+    margin-top: 16px;
+  }
+
+  /* FAQ */
+  #faq { background: var(--cream-dark); }
+
+  .faq-list {
+    max-width: 820px;
+    margin: 32px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .faq-item {
+    background: var(--white);
+    border: 1px solid rgba(201,169,110,0.2);
+    border-radius: 14px;
+    padding: 28px 32px;
+    text-align: left;
+  }
+
+  .faq-q {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--brown-dark);
+    margin-bottom: 10px;
+  }
+
+  .faq-a {
+    font-size: 14px;
+    color: var(--text-mid);
+    line-height: 1.8;
   }
 
 </style>
@@ -415,6 +560,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <li><a href="#process">合作流程</a></li>
     <li><a href="blog.html">知識專欄</a></li>
     <li><a href="#pricing">SEO 費用</a></li>
+    <li><a href="#faq">常見問題</a></li>
     <li><a href="#contact" class="nav-cta">免費諮詢</a></li>
   </ul>
   <button class="nav-hamburger" onclick="toggleMenu()" aria-label="選單">
@@ -435,6 +581,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a href="#process">合作流程</a>
   <a href="blog.html">知識專欄</a>
   <a href="#pricing">SEO 費用</a>
+  <a href="#faq">常見問題</a>
   <a href="#contact" class="mobile-cta">免費諮詢</a>
 </div>
 
@@ -448,9 +595,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <span class="star-accent">✦</span>
   <div class="hero-inner">
     <div class="hero-text">
-      <div class="hero-eyebrow">SEO 內容策略・數位行銷</div>
-      <h1 class="hero-title">讓你的品牌<br>被<em>對的人</em>找到</h1>
-      <p class="hero-desc">豐蒂斯專注於 SEO 內容策略與數位廣告，用真實的文字、深度的研究，為你的品牌在搜尋引擎上建立長久的能見度。</p>
+      <div class="hero-eyebrow">AI SEO・內容策略・數位行銷</div>
+      <h1 class="hero-title">讓你的品牌<br>被<em>對的人</em>、也被 <em>AI</em> 找到</h1>
+      <p class="hero-desc">豐蒂斯專注於 AI SEO、SEO 內容策略與數位廣告，用真實的文字、深度的研究，為你的品牌在搜尋引擎與 AI 問答中建立長久的能見度。</p>
       <div class="hero-btns">
         <a href="#contact" class="btn-primary">預約免費諮詢</a>
         <a href="#cases" class="btn-secondary">查看成功案例</a>
@@ -500,13 +647,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="about-text">
         <div class="section-eyebrow">關於我們</div>
         <h2 class="section-title">用內容讓品牌長久被找到</h2>
-        <p>豐蒂斯（Fortis）是一家專注於 SEO 內容策略與數位行銷的顧問公司，服務橫跨醫美、光電、地材、B2B 製造等多元產業。</p>
-        <p>我們相信，真正有效的行銷建立在深度理解之上。每一篇內容都是為你的目標受眾量身打造，讓搜尋引擎理解你的專業，讓客戶相信你的價值。</p>
+        <p>豐蒂斯（Fortis）是一家專注於 AI SEO、SEO 內容策略與數位行銷的顧問公司，服務橫跨醫美、光電、地材、B2B 製造等多元產業。</p>
+        <p>我們相信，真正有效的行銷建立在深度理解之上。每一篇內容都是為你的目標受眾量身打造，讓搜尋引擎與生成式 AI 理解你的專業，讓客戶相信你的價值。</p>
         <div class="about-values">
+          <div class="value-chip"><span class="value-chip-icon">✦</span><span class="value-chip-label">AI SEO</span></div>
           <div class="value-chip"><span class="value-chip-icon">✦</span><span class="value-chip-label">內容策略</span></div>
           <div class="value-chip"><span class="value-chip-icon">✦</span><span class="value-chip-label">SEO 優化</span></div>
           <div class="value-chip"><span class="value-chip-icon">✦</span><span class="value-chip-label">數據分析</span></div>
-          <div class="value-chip"><span class="value-chip-icon">✦</span><span class="value-chip-label">長期陪伴</span></div>
         </div>
       </div>
     </div>
@@ -520,6 +667,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h2 class="section-title reveal">我們提供的服務</h2>
     <p class="section-desc reveal">從策略規劃到內容執行，我們提供完整的數位行銷解決方案。</p>
     <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon">🤖</div>
+        <div class="service-name">AI SEO・生成式引擎優化</div>
+        <p class="service-desc">當消費者開始問 ChatGPT、Google AI Overviews、Perplexity 而不是打關鍵字搜尋，你的品牌準備好被 AI 推薦了嗎？我們用結構化內容與問答式寫作，讓 AI 主動引用你，成為它給使用者的答案。</p>
+        <div class="service-tags"><span class="tag">AI Overviews 優化</span><span class="tag">GEO 生成式引擎優化</span><span class="tag">AI 問答內容設計</span></div>
+      </div>
       <div class="service-card reveal">
         <div class="service-icon">🔍</div>
         <div class="service-name">B2B SEO</div>
@@ -644,45 +797,189 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="section-inner">
     <div class="section-eyebrow reveal">方案費用</div>
     <h2 class="section-title reveal">透明定價，一條龍代操</h2>
-    <p class="section-desc reveal">固定月費、清楚含括項目，讓你知道每一分錢花在哪裡。</p>
-    <div class="pricing-grid">
+    <p class="section-desc reveal">三種方案對應不同的搜尋曝光策略，從 Google 排名到 AI 引用都能找到最適合的組合。</p>
 
-      <div class="pricing-card reveal">
-        <div class="pricing-plan">小資方案</div>
-        <div class="pricing-price">$25,000</div>
-        <div class="pricing-period">/ 每月固定月費</div>
-        <div class="pricing-divider"></div>
-        <ul class="pricing-features">
-          <li>每月 8 篇專業 SEO 文章</li>
-          <li>集群關鍵字策略規劃</li>
-          <li>全程代為上稿，不用碰後台</li>
-          <li>每月一次排名＋流量分析報告</li>
-          <li>一條龍代操，無隱藏費用</li>
-        </ul>
-        <a href="#contact" class="pricing-cta">立即免費諮詢</a>
+    <div class="compare-wrap reveal">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>SEO 成長方案</th>
+            <th>AI SEO / GEO 方案</th>
+            <th class="compare-featured"><span class="compare-badge-inline">⭐ 最受歡迎</span>SEO × AI SEO 整合方案</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="compare-price-row">
+            <td>月費</td>
+            <td>NT$25,000</td>
+            <td>NT$30,000</td>
+            <td class="compare-featured">NT$40,000</td>
+          </tr>
+          <tr>
+            <td>核心目標</td>
+            <td>Google 搜尋排名</td>
+            <td>AI 搜尋曝光／引用</td>
+            <td class="compare-featured">Google＋AI 雙軌</td>
+          </tr>
+          <tr>
+            <td>關鍵字研究</td>
+            <td><span class="compare-check">✓</span></td>
+            <td><span class="compare-dash">—</span></td>
+            <td class="compare-featured"><span class="compare-check">✓</span></td>
+          </tr>
+          <tr>
+            <td>Prompt／AI 問題研究</td>
+            <td><span class="compare-dash">—</span></td>
+            <td><span class="compare-check">✓</span></td>
+            <td class="compare-featured"><span class="compare-check">✓</span></td>
+          </tr>
+          <tr>
+            <td>SEO／GEO 策略規劃</td>
+            <td>SEO</td>
+            <td>GEO</td>
+            <td class="compare-featured">SEO＋GEO</td>
+          </tr>
+          <tr>
+            <td>每月內容</td>
+            <td>16 篇 SEO 文章</td>
+            <td>8–10 篇 GEO 內容＋既有內容優化</td>
+            <td class="compare-featured">16 篇 SEO × GEO 策略內容</td>
+          </tr>
+          <tr>
+            <td>網站上稿</td>
+            <td><span class="compare-check">✓</span></td>
+            <td><span class="compare-check">✓</span></td>
+            <td class="compare-featured"><span class="compare-check">✓</span></td>
+          </tr>
+          <tr>
+            <td>Internal Link 規劃</td>
+            <td><span class="compare-check">✓</span></td>
+            <td>基礎</td>
+            <td class="compare-featured"><span class="compare-check">✓</span></td>
+          </tr>
+          <tr>
+            <td>AI-Friendly 內容結構</td>
+            <td><span class="compare-dash">—</span></td>
+            <td><span class="compare-check">✓</span></td>
+            <td class="compare-featured"><span class="compare-check">✓</span></td>
+          </tr>
+          <tr>
+            <td>FAQ／結構化內容規劃</td>
+            <td>基礎</td>
+            <td><span class="compare-check">✓</span></td>
+            <td class="compare-featured"><span class="compare-check">✓</span></td>
+          </tr>
+          <tr>
+            <td>Google 排名追蹤</td>
+            <td><span class="compare-check">✓</span></td>
+            <td><span class="compare-dash">—</span></td>
+            <td class="compare-featured"><span class="compare-check">✓</span></td>
+          </tr>
+          <tr>
+            <td>AI 品牌提及／引用追蹤</td>
+            <td><span class="compare-dash">—</span></td>
+            <td><span class="compare-check">✓</span></td>
+            <td class="compare-featured"><span class="compare-check">✓</span></td>
+          </tr>
+          <tr>
+            <td>競品觀察</td>
+            <td>SEO 競品</td>
+            <td>AI 競品</td>
+            <td class="compare-featured">SEO＋AI</td>
+          </tr>
+          <tr>
+            <td>分析報告</td>
+            <td>每兩週一次</td>
+            <td>每兩週一次</td>
+            <td class="compare-featured">每兩週一次</td>
+          </tr>
+          <tr>
+            <td>AI 圖片製作</td>
+            <td>＋5,000／月</td>
+            <td>＋5,000／月</td>
+            <td class="compare-featured">＋5,000／月</td>
+          </tr>
+          <tr class="compare-cta-row">
+            <td></td>
+            <td><a href="#contact">預約免費諮詢</a></td>
+            <td><a href="#contact">預約免費諮詢</a></td>
+            <td class="compare-featured"><a href="#contact">預約免費諮詢</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="compare-note reveal">以上方案均以台幣計價，最低合約 6 個月。可依產業與預算客製調整。</p>
+
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="section-inner">
+    <div class="section-eyebrow reveal">常見問題</div>
+    <h2 class="section-title reveal">關於 AI SEO 與 SEO，你可能想問</h2>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <h3 class="faq-q">什麼是 AI SEO？</h3>
+        <p class="faq-a">AI SEO 是針對 ChatGPT、Google AI Overviews、Perplexity 等生成式 AI 搜尋工具所做的優化，目標是讓品牌內容被 AI 主動引用、推薦，而不只是出現在傳統搜尋結果的網頁連結中。</p>
       </div>
-
-      <div class="pricing-card featured reveal">
-        <div class="pricing-badge">最受歡迎</div>
-        <div class="pricing-plan">基礎方案</div>
-        <div class="pricing-price">$40,000</div>
-        <div class="pricing-period">/ 每月固定月費</div>
-        <div class="pricing-divider"></div>
-        <ul class="pricing-features">
-          <li>每月 16 篇專業 SEO 文章</li>
-          <li>集群關鍵字策略規劃</li>
-          <li>全程代為上稿，不用碰後台</li>
-          <li>兩週一次深度分析報告</li>
-          <li>24 小時數據監控</li>
-          <li>專屬圖片製作（文章配圖）</li>
-          <li>一條龍代操，無隱藏費用</li>
-        </ul>
-        <a href="#contact" class="pricing-cta">立即免費諮詢</a>
+      <div class="faq-item reveal">
+        <h3 class="faq-q">什麼是 GEO（生成式引擎優化）？</h3>
+        <p class="faq-a">GEO（Generative Engine Optimization）是 AI SEO 的核心方法論，透過結構化、問答式的內容設計，讓生成式 AI 更容易理解並引用你的內容作為回答依據。</p>
       </div>
-
+      <div class="faq-item reveal">
+        <h3 class="faq-q">豐蒂斯只做 SEO 還是也做 AI SEO / GEO？</h3>
+        <p class="faq-a">豐蒂斯同時提供傳統 SEO 與 AI SEO／GEO 服務，並提供 SEO × AI SEO 整合方案，讓品牌在 Google 搜尋排名與 AI 引用曝光上雙軌並進。</p>
+      </div>
+      <div class="faq-item reveal">
+        <h3 class="faq-q">AI SEO 跟傳統 SEO 有什麼不同？</h3>
+        <p class="faq-a">傳統 SEO 著重關鍵字排名與網頁點擊；AI SEO／GEO 著重內容是否會被生成式 AI 擷取、引用並直接呈現給使用者，兩者互補而非取代。</p>
+      </div>
     </div>
   </div>
 </section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "什麼是 AI SEO？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI SEO 是針對 ChatGPT、Google AI Overviews、Perplexity 等生成式 AI 搜尋工具所做的優化，目標是讓品牌內容被 AI 主動引用、推薦，而不只是出現在傳統搜尋結果的網頁連結中。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "什麼是 GEO（生成式引擎優化）？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GEO（Generative Engine Optimization）是 AI SEO 的核心方法論，透過結構化、問答式的內容設計，讓生成式 AI 更容易理解並引用你的內容作為回答依據。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "豐蒂斯只做 SEO 還是也做 AI SEO / GEO？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "豐蒂斯同時提供傳統 SEO 與 AI SEO／GEO 服務，並提供 SEO × AI SEO 整合方案，讓品牌在 Google 搜尋排名與 AI 引用曝光上雙軌並進。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "AI SEO 跟傳統 SEO 有什麼不同？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "傳統 SEO 著重關鍵字排名與網頁點擊；AI SEO／GEO 著重內容是否會被生成式 AI 擷取、引用並直接呈現給使用者，兩者互補而非取代。"
+      }
+    }
+  ]
+}
+</script>
 
 <!-- CONTACT -->
 <section id="contact">
